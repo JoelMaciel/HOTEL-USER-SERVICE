@@ -1,16 +1,16 @@
 version: '3.9'
 
 services:
-  mysql_microservices:
+  mysql_users:
     image: mysql:8.0-debian
-    container_name: mysql_microservices
+    container_name: mysql_users
     ports:
       - "3306:3306"
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: microservices
+      MYSQL_DATABASE: users
     volumes:
-      - data-mysql-orders:/var/lib/mysql
+      - data-mysql-users:/var/lib/mysql
     restart: always
     networks:
       - microservices_network
@@ -35,7 +35,7 @@ services:
 
 
 volumes:
-  data-mysql-orders:
+  data-mysql-users:
 
 networks:
   microservices_network:
