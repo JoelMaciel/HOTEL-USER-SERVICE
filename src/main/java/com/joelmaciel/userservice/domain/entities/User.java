@@ -4,9 +4,12 @@ import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.UpdateTimestamp;
+import org.springframework.data.domain.Page;
 
 import javax.persistence.*;
 import java.time.OffsetDateTime;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
 
 @Getter
@@ -31,4 +34,6 @@ public class User {
     private OffsetDateTime creationDate;
     @UpdateTimestamp
     private OffsetDateTime updateDate;
+    @Transient
+    private List<Qualification> qualifications = new ArrayList<>();
 }
