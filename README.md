@@ -4,7 +4,12 @@
 
 # About the project.
 
-## Project under construction....
+### *User microservice is a component that manages user information in a microservices architecture.*
+
+### *It integrates with Keycloak to handle authentication and authorization.*
+### *Its main functions include storing user data, delegating  authentication to Keycloak, protecting sensitive resources, managing JWT tokens,  ensuring secure communication, and integrating with other microservices.*
+### *This centralized approach simplifies identity management, strengthens security  and supports application scalability.*
+
 
 
 
@@ -18,3 +23,11 @@
 
 
 ## Request Images
+
+### Get One User
+![Captura de tela de 2024-01-06 17-44-38](https://github.com/JoelMaciel/KAF-USER-SERVICE/assets/77079093/5c4dbeaf-b5d7-4539-843d-e36ee2e73fb9)
+
+### Eureka Discovery
+![Captura de tela de 2024-01-06 13-25-35](https://github.com/JoelMaciel/KAF-USER-SERVICE/assets/77079093/9d2a41f9-9492-4159-b031-376cf110aac4)
+
+
