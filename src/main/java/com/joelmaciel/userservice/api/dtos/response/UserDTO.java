@@ -1,12 +1,15 @@
 package com.joelmaciel.userservice.api.dtos.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.joelmaciel.userservice.domain.entities.Qualification;
 import com.joelmaciel.userservice.domain.entities.User;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.time.OffsetDateTime;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
 
 @Getter
@@ -22,6 +25,7 @@ public class UserDTO {
     private OffsetDateTime creationDate;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd'T'HH:mm:ss", timezone = "UTC")
     private OffsetDateTime updateDate;
+    private List<Qualification> qualifications;
 
     public static UserDTO toDTO(User user) {
         return UserDTO.builder()
@@ -31,6 +35,7 @@ public class UserDTO {
                 .description(user.getDescription())
                 .creationDate(user.getCreationDate())
                 .updateDate(user.getUpdateDate())
+                .qualifications(user.getQualifications())
                 .build();
     }
 
