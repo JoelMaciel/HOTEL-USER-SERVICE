@@ -15,7 +15,7 @@
 
 ## Technology used :
 -  JAVA ---  SPRING BOOT ---  DOCKER 
--  RESILIENCE4J --- CIRCUIT-BREAKER --- RATE LIMITER --- REDIS
+-  RESILIENCE4J --- CIRCUIT-BREAKER
 -  CI/CD --- JUNIT5 ---  MOCKITO --- JACOCO
 -  API GATEWAY ---  SERVICE DISCOVERY (EUREKA)
 -  OPEN FEIGN --- OPEN API (SWAGGER)
@@ -29,6 +29,10 @@
 
 ### Eureka Discovery
 ![Captura de tela de 2024-01-07 10-54-07](https://github.com/JoelMaciel/kaf-config-repo/assets/77079093/5c6a9a05-d278-4d94-b8bd-573af6303e05)
+
+### Circuit Breaker
+![Captura de tela de 2024-01-07 16-17-04](https://github.com/JoelMaciel/KAF-CONFIG-SERVER/assets/77079093/c1bc6894-82d8-4194-980c-311f27474ae3)
+
 
 
 
