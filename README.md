@@ -15,7 +15,7 @@
 
 ## Technology used :
 -  JAVA ---  SPRING BOOT ---  DOCKER 
--  Resilience4j --- CircuitBreaker --- Rate Limiter --- Redis
+-  RESILIENCE4J --- CIRCUIT-BREAKER --- RATE LIMITER --- REDIS
 -  CI/CD --- JUNIT5 ---  MOCKITO --- JACOCO
 -  API GATEWAY ---  SERVICE DISCOVERY (EUREKA)
 -  OPEN FEIGN --- OPEN API (SWAGGER)
