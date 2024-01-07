@@ -28,6 +28,7 @@
 ![Captura de tela de 2024-01-06 17-44-38](https://github.com/JoelMaciel/KAF-USER-SERVICE/assets/77079093/5c4dbeaf-b5d7-4539-843d-e36ee2e73fb9)
 
 ### Eureka Discovery
-![Captura de tela de 2024-01-06 13-25-35](https://github.com/JoelMaciel/KAF-USER-SERVICE/assets/77079093/9d2a41f9-9492-4159-b031-376cf110aac4)
+![Captura de tela de 2024-01-07 10-54-07](https://github.com/JoelMaciel/kaf-config-repo/assets/77079093/5c6a9a05-d278-4d94-b8bd-573af6303e05)
+
 
 
